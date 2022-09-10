@@ -17,14 +17,14 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%d is positive\n", n, "positive");
+		printf("%d is %s\n", n, "positive");
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero\n", n, "zero");
+		printf("%d is %s\n", n, "zero");
 	}
 	else
 	{
-		printf("%d is negative\n", n, "negative");
+		printf("%d is %s\n", n, "negative");
 	}
 }
