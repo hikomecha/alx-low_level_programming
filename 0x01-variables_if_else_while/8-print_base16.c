@@ -6,6 +6,7 @@
  * Return: 0 when success
  */
 int main(void)
+{
 int i = '0';
 
 while (i <= '9')
