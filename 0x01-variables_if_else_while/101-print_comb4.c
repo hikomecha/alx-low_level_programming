@@ -20,8 +20,7 @@ for (i = '0'; i <= '9'; i++)
 				putchar(i);
 				putchar(j);
 				putchar(n);
-				
-				if ((i + j +n) < 168)
+				if ((i + j + n) < 168)
 				{
 					putchar(',');
 					putchar(' ');
