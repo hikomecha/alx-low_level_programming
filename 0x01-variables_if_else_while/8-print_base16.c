@@ -14,7 +14,7 @@ while (i <= '9')
 	i++;
 }
 i = 'a';
-while (i = 'f')
+while (i <= 'f')
 {
 	putchar(i);
 	i++;
