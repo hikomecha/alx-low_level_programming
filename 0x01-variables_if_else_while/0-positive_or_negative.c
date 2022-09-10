@@ -1,30 +1,54 @@
 #include <stdlib.h>
-#include <time.h>
+
 #include <stdio.h>
+
+#include <time.h>
+
+
+
 /**
- * main - determination of positive or negative numbers.
  *
- * return if seccuss
+ * main - Positive or Negative - print sign of random number
+ *
+ * @void: Empty parameter list for main.
+ *
+ *
+ * Description: this if/else statement delares the sign (positive
+ *
+ * or negative) of a random number. It also states if the value
+ *
+ * is zero.
+ *
+ *        
+ *
+ * Return: 0 for success
  */
 
 int main(void)
 {
+/**
+ *
+ * variable n has been declared
+ *
+ * coding then assigns the random value.
+ *
+ */
 	int n;
 	srand(time(0));
-	n = rand() - RAND_MAX /2;
 
-	/* your code goes here*/
-
-	if (n > 0)
-	
-		printf("%d is %s\n", n, "positive");
-	
-	else if (n == 0)
-	
-		printf("%d is %s\n", n, "zero");
-	
-	else
-
-		printf("%d is %s\n", n, "negative");
-	
+	n = rand() - RAND_MAX / 2;
+        if (n < 0)
+	{
+	printf("%d is negative\n", n);
+	}
+	else if (n > 0)
+	{
+	printf("%d is positive\n", n);
+	}
+	else 
+	{
+	printf("%d is zero\n", n);
+	}
+return (0);
 }
+
