@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - nested loop
+ * main - print _putchar
  *
  *
  * Return: 0 on success
