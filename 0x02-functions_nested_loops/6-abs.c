@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * _abs - function prints absolute
- *@c: int
- *Retun: 0
+ *@c: is int that will used
+ *Return: 0
  */
 int _abs(int c)
 {
