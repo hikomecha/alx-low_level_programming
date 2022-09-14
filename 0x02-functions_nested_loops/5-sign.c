@@ -1,13 +1,11 @@
 #include "main.h"
 /**
  * print_sign - code checks
- * @c: int n.
+ * @n: int n.
  * Return: 0
  */
-int print_sign()
+int print_sign(int n)
 {
-	int n;
-
 	if (n > 0)
 	{
 		_putchar('+');
